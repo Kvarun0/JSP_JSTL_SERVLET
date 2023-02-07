@@ -1,0 +1,8 @@
+127.0.0.1 - - [07/Feb/2023:13:19:17 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [07/Feb/2023:13:19:19 +0530] "GET /D_Servlet_Filters/home.jsp HTTP/1.1" 200 440
+127.0.0.1 - - [07/Feb/2023:13:19:20 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [07/Feb/2023:13:19:32 +0530] "GET /D_Servlet_Filters/addUser?uid=123&uname=vadad HTTP/1.1" 200 16
+127.0.0.1 - - [07/Feb/2023:13:19:42 +0530] "GET /D_Servlet_Filters/addUser?uid=-123&uname=vadad HTTP/1.1" 200 18
+127.0.0.1 - - [07/Feb/2023:13:19:51 +0530] "GET /D_Servlet_Filters/addUser?uid=0&uname=vadad HTTP/1.1" 200 18
+127.0.0.1 - - [07/Feb/2023:13:20:05 +0530] "GET /D_Servlet_Filters/addUser?uid=1210&uname=s HTTP/1.1" 200 15
+127.0.0.1 - - [07/Feb/2023:13:23:39 +0530] "GET /D_Servlet_Filters/home.jsp HTTP/1.1" 200 440

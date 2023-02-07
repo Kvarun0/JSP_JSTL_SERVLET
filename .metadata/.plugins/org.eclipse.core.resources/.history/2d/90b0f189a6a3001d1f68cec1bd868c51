@@ -1,0 +1,8 @@
+package com.servlet;
+
+
+public class Object_For_jstl {
+	
+	String name;
+	int rollNo;
+}

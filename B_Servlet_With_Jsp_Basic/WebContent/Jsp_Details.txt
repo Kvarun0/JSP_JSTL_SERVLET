@@ -1,0 +1,63 @@
+
+--->  We Write Java inside HTML This feature Provide by java server pages(JSP).
+
+
+Why We Need JSP ?
+	
+	-> Response Send From Servlet to client is static we can't give design to client page
+	   That's give client a boring view. we need to give a perfect designed view .
+	
+	-> If we design the page using servlet that why we need to write all code into "pw.println()"
+	   This is note use full way to design pages.
+	   
+	   
+Jsp Tags Types {
+
+		Directives;
+		Declaration
+		Scriptlet
+		Expression	      
+	
+	-->	Directives
+			The jsp directives are messages that tells the web container 
+			how to translate a JSP page into the corresponding servlet.
+			
+			<%@ page/include/taglib  >
+			
+			import
+			contentType
+			extends
+			info
+			buffer
+			language
+			isELIgnored
+			isThreadSafe
+			autoFlush
+			session
+			pageEncoding
+			errorPage
+			isErrorPage
+ 	   
+ 	-->	Declaration
+ 			The JSP declaration tag is used to declare fields and methods.
+			
+			The declaration of jsp declaration tag is placed outside the _jspService() method.
+			
+ 			<%! int i=10; %>
+ 	
+ 	-->	Scriptlet
+ 			In JSP, java code can be written inside the jsp page using the scriptlet tag.
+ 			
+ 			
+ 			
+ 			<% Java Source Code %>
+ 	 
+ 	-->	Expression
+ 			The code placed within JSP expression tag is written to the output stream of the response. 
+ 			So you need not write out.print() to write data.
+ 			
+ 			It is mainly used to print the values of variable or method.
+ 			
+ 			<%=  statement %> 
+ 	  
+ 

@@ -1,0 +1,12 @@
+
+Feb 07, 2023 13:19:18.85 NEW SESSION
+Feb 07, 2023 13:19:18.85 [2492:5312:0207/131918.859:ERROR:pref_model_associator.cc(119)] Failed to deserialize value of preference 'sync.demographics': Line: 1, column: 1, Unexpected token.
+Feb 07, 2023 13:19:21.23 [2492:5312:0207/131921.235:ERROR:device_event_log_impl.cc(215)] [13:19:21.227] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 13:19:21.23 [2492:5312:0207/131921.235:ERROR:device_event_log_impl.cc(215)] [13:19:21.227] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 07, 2023 13:19:21.24 [2492:10752:0207/131921.244:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 07, 2023 13:19:49.60 [2492:10752:0207/131949.603:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 07, 2023 13:20:18.74 [2492:8596:0207/132018.745:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Feb 07, 2023 13:20:43.79 [2492:10752:0207/132043.790:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 07, 2023 13:22:19.53 [2492:10752:0207/132219.530:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -106
+Feb 07, 2023 13:25:01.95 [2492:10752:0207/132501.955:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 07, 2023 13:28:23.29 [2492:5312:0207/132823.295:ERROR:device_event_log_impl.cc(215)] [13:28:23.295] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

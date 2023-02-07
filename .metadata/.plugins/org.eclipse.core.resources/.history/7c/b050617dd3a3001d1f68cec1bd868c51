@@ -1,0 +1,38 @@
+package com.servlet;
+
+import java.io.IOException;
+import java.util.Arrays;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import List;
+
+
+@WebServlet("")
+public class Object_with_jstl extends HttpServlet{
+	
+	public void doGet(HttpServletRequest req,HttpServletResponse res) throws ServletException, IOException{
+		
+		String name="varun";
+		int id=10;
+		
+		List<Object_For_jstl> stud=Arrays.asList(new Object_For_jstl(1,"varun"),new Object_For_jstl(2, "mayur"));
+		
+		
+		req.setAttribute("student", stud);
+		
+		RequestDispatcher rd=req.getRequestDispatcher("object_with_jsp_jstl.jsp");
+			
+		rd.forward(req, res);
+			
+		
+		
+	}
+}

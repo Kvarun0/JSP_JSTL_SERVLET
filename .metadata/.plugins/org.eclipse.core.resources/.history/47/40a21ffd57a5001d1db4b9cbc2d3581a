@@ -1,0 +1,24 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+
+public class LoginDao {
+	
+	public boolean checkDetails(String uname, String password){
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			Connection con=DriverManager.getConnection("");
+		
+		} catch (ClassNotFoundException e) {	
+			e.printStackTrace();
+		}
+		
+		
+		return false;
+	}
+}

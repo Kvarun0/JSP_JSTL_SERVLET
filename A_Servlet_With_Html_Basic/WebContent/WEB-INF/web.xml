@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>A_Servlet_With_Html_Basic</display-name>
+  
+  <!-- index.html mapping -->
+  <servlet>
+    <servlet-name>Adding</servlet-name>
+    <servlet-class>com.servlet.AddTwoNumber</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Adding</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <!-- get_post mapping -->
+  <servlet>
+    <servlet-name>DoGetPost</servlet-name>
+    <servlet-class>com.servlet.DoGet_DoPost</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoGetPost</servlet-name>
+    <url-pattern>/get_post</url-pattern>
+  </servlet-mapping>
+  
+ <!-- Requesr_Dispatcher Mapping --> 
+  <servlet>
+    <servlet-name>first</servlet-name>
+    <servlet-class>com.servlet.Request_dis1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/dis</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>com.servlet.Request_dis2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Res_SendRedirect mapping -->
+  <servlet>
+    <servlet-name>red_1</servlet-name>
+    <servlet-class>com.servlet.Res_Send1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>red_1</servlet-name>
+    <url-pattern>/send_redirect</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>red_2</servlet-name>
+    <servlet-class>com.servlet.Res_Send2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>red_2</servlet-name>
+    <url-pattern>/send_redirect_sq</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Use Session for data transfer between servlet -->
+  <servlet>
+  	<servlet-name>session_use1</servlet-name>
+  	<servlet-class>com.servlet.Session_Send1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>session_use1</servlet-name>
+  	<url-pattern>/send_session1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>session_use2</servlet-name>
+  	<servlet-class>com.servlet.Session_Send2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>session_use2</servlet-name>
+  	<url-pattern>/send_session2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Use Of Cookie instead of Session -->
+  <servlet>
+  	<servlet-name>cookie_s1</servlet-name>
+  	<servlet-class>com.servlet.Cookie_Send1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cookie_s1</servlet-name>
+  	<url-pattern>/cookie_send_servlet1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>cookie_s2</servlet-name>
+  	<servlet-class>com.servlet.Cookie_Send2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cookie_s2</servlet-name>
+  	<url-pattern>/cookie_send_servlet2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!--  -->
+  
+</web-app>

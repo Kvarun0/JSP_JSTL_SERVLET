@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;B_Servlet_With_Jsp_Basic/WebContent/data.txt&apos; to &apos;Jsp_Details.txt&apos;" description="Rename resource &apos;data.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/data.txt" name="Jsp_Details.txt" stamp="1674631083721" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+package com.servlet;
+
+
+public class Object_For_jstl {
+	
+	private String name;
+	private int rollNo;
+	
+	public Object_For_jstl(String name, int rollNo) {
+		super();
+		this.name = name;
+		this.rollNo = rollNo;
+	}
+	
+	
+}

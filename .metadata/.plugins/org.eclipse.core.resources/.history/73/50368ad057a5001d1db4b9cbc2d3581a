@@ -1,0 +1,18 @@
+package com.dao;
+
+public class LoginDao {
+	
+	public boolean checkDetails(String uname, String password){
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+		
+		} catch (ClassNotFoundException e) {	
+			e.printStackTrace();
+		}
+		
+		
+		return false;
+	}
+}

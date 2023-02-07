@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;C_Jsp_With_Jstl_Basic/WebContent/jsp_jstl_function].jsp&apos; to &apos;jsp_jstl_function.jsp&apos;" description="Rename resource &apos;jsp_jstl_function].jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/jsp_jstl_function].jsp" name="jsp_jstl_function.jsp" stamp="1675439889025" updateReferences="true"/>
+</session>

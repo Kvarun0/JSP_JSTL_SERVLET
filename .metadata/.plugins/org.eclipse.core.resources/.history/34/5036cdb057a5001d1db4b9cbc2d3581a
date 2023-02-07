@@ -1,0 +1,12 @@
+package com.dao;
+
+public class LoginDao {
+	
+	public boolean checkDetails(String uname, String password){
+		
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		
+		return false;
+	}
+}

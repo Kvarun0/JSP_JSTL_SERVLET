@@ -1,0 +1,19 @@
+package com.servlet;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/DemoForJstlCore")
+public class Servlet_for_jstl_core extends HttpServlet{
+	
+	public void doGet(HttpServletRequest req,HttpServletResponse res){
+		String name="varun";
+		
+		RequestDispatcher rd=req.getRequestDispatcher("jsp_with_jstl_core_tag.jsp")
+	}
+	
+}
